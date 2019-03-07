@@ -26,6 +26,8 @@ paginate = "5"
     name = "About"
     identifier = "about"
     url = "about"
+    color = ""
+    icon = ""
 
 [[Menu.Main]]
     name = "Contact"
