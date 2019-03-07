@@ -12,6 +12,8 @@ theme="bulmacast"
 googleAnalytics = ""
 disqusShortname = ""
 
+disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
+
 paginate = "5"
 
 [permalinks]
