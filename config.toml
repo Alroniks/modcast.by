@@ -1,3 +1,38 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://modcast.by/"
+
+title = "MODX Podcast"
+description = "Новости из мира MODX"
+
+DefaultContentLanguage = "ru"
+languageCode = "ru-ru"
+
+publishDir = "docs"
+theme="bulmacast"
+
+googleAnalytics = ""
+disqusShortname = ""
+
+paginate = "5"
+
+[permalinks]
+    # page = "/:filename/"
+    about = "/:filename/"
+    episode = "/:filename/"
+
+
+[[Menu.Main]]
+    name = "About"
+    identifier = "about"
+    url = "about"
+
+[[Menu.Main]]
+    name = "Contact"
+    identifier = "contact"
+    url = "contact"
+
+[[Menu.Main]]
+    name = "Podcasts"
+    identifier = "podcasts"
+    url = "books"
+
+# [params]
