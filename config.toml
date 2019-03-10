@@ -1,42 +1,44 @@
 baseURL = "https://modcast.by/"
+theme="bulmacast"
 
-title = "MODX Podcast"
-description = "Новости из мира MODX"
-
-DefaultContentLanguage = "ru"
-languageCode = "ru-ru"
+Title = "Подкаст о MODX"
+Description = "Обсуждаем новости сообщества и прогресс разработки, а так же просто говорим о MODX."
 
 publishDir = "docs"
-theme="bulmacast"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+DefaultContentLanguage = "ru"
+LanguageCode = "ru-ru"
 
 googleAnalytics = ""
 disqusShortname = ""
 
-disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
+[Params]
+    [Params.Podcast]
+        Title = "Модкаст"
+        Description = "Обсуждаем новости сообщества и прогресс разработки, а так же просто говорим о MODX."
+        Artwork = "img/artwork.jpg"
+        Summary = "Говорим о MODX"
+        Copyright = "СС BY-NC-ND 4.0"
+        Author = "Иван Климчук"
+        Explicit = "no"
+        Category = "Technology"
+        Subcategory = "Tech News"
+        [Params.Podcast.Owner]
+            Email = "ivan@klimchul.com"
+            Name = "Ivan Klimchuk"
 
-paginate = "5"
 
-[permalinks]
-    # page = "/:filename/"
-    about = "/:filename/"
-    episode = "/:filename/"
-
-
-[[Menu.Main]]
-    name = "About"
-    identifier = "about"
-    url = "about"
-    color = ""
-    icon = ""
-
-[[Menu.Main]]
-    name = "Contact"
-    identifier = "contact"
-    url = "contact"
-
-[[Menu.Main]]
-    name = "Podcasts"
-    identifier = "podcasts"
-    url = "books"
-
-# [params]
+[menu]
+    [[menu.main]]
+        name = "RSS"
+        url = "episode/index.xml"
+        pre = "#f38649"
+        post = "fas fa-rss"
+        weight = 1000
+    [[menu.main]]
+        name = "Скринкасты"
+        url = "https://modcasts.video"
+        pre = ""
+        post = "fas fa-video"
+        weight = 500
