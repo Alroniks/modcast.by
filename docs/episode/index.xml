@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <atom:link href="https://modcast.by/episode/index.xml" rel="self" type="application/rss+xml" />
+
+    <title>Подкаст о MODX</title>
+    <link>https://modcast.by/</link>
+    <language>ru-ru</language>
+    <copyright>СС BY-NC-ND 4.0</copyright>
+
+    <itunes:subtitle>Говорим о MODX</itunes:subtitle>
+    <itunes:author>Иван Климчук</itunes:author>
+
+    <itunes:summary>Обсуждаем новости сообщества и прогресс разработки, а так же просто говорим о MODX.</itunes:summary>
+    <description>Обсуждаем новости сообщества и прогресс разработки, а так же просто говорим о MODX.</description>
+
+    <itunes:type>episodic</itunes:type>
+    <itunes:owner>
+      <itunes:name>Ivan Klimchuk</itunes:name>
+      <itunes:email>ivan@klimchul.com</itunes:email>
+    </itunes:owner>
+
+    <itunes:image href="https://modcast.by/img/artwork.jpg" />
+
+    <itunes:category text="Technology">
+      <itunes:category text="Tech News" />
+    </itunes:category>
+
+    <itunes:explicit>no</itunes:explicit>
+
+    
+      
+        <item>
+          <link>https://modcast.by/episode/1/</link>
+          <title>MODX-Дайджест #1</title>
+          <pubDate>Mon, 11 Mar 2019 30:00:00 +1000 </pubDate>
+
+          <description><![CDATA[
+
+<p>11 марта 2019: Иконки для типов содержимого, XSS-уязвимости в админке, заморозка 3 ветки, работа над документацией и упорядочивание разрешений.
+</p>
+
+<h2 id="содержание">Содержание</h2>
+
+<ul>
+<li>00:00:00 Начало подкаста</li>
+<li>00:03:10 Об иконках</li>
+<li>00:05:03 Уязвимости</li>
+<li>00:07:15 Заморозка 3 ветки</li>
+</ul>
+
+<p>Слушайте:
+<a href="#1">iTunes</a>
+<a href="#2">Яндекс.Музыка</a>
+<a href="#3">Ютуб</a>
+<a href="#4">SoundCloud</a>
+<a href="#5">Overcast</a>
+<a href="#6">RSS</a></p>
+
+<p>Поддержите:
+<a href="https://www.patreon.com/modcast">Патреон</a>
+<a href="https://money.yandex.ru/to/41001878021446">Яндекс.Деньги</a></p>
+
+<p>Новости и обновления в телеграм-канале <a href="https://t.me/modxdigest">MODX Digest</a></p>
+]]></description>
+
+          <guid isPermaLink="true">https://s3.eu-north-1.amazonaws.com/modcastby/pp/pp0.mp3</guid>
+          <enclosure url="https://s3.eu-north-1.amazonaws.com/modcastby/pp/pp0.mp3" length="5989772" type="audio/mpeg" />
+
+          <itunes:episode>1</itunes:episode>
+          <itunes:duration>00:08:19</itunes:duration>
+          <itunes:image href="https://modcast.by/img/artwork.jpg"/>
+          
+          <itunes:author>Иван Климчук</itunes:author>
+          <itunes:explicit></itunes:explicit>
+
+          <itunes:summary></itunes:summary>
+        </item>
+      
+    
+      
+    
+  </channel>
+</rss>

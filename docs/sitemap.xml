@@ -6,4 +6,20 @@
     <loc>https://modcast.by/</loc>
   </url>
   
+  <url>
+    <loc>https://modcast.by/episode/1/</loc>
+  </url>
+  
+  <url>
+    <loc>https://modcast.by/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://modcast.by/donate/</loc>
+  </url>
+  
+  <url>
+    <loc>https://modcast.by/episode/</loc>
+  </url>
+  
 </urlset>
