@@ -72,9 +72,9 @@
           <itunes:image href="https://modcast.by/img/artwork.jpg"/>
           
           <itunes:author>Иван Климчук</itunes:author>
-          <itunes:explicit></itunes:explicit>
+          <itunes:explicit>no</itunes:explicit>
 
-          <itunes:summary></itunes:summary>
+          <itunes:summary>Иконки для типов содержимого, XSS-уязвимости в админке, заморозка 3 ветки, работа над документацией и упорядочивание разрешений.</itunes:summary>
         </item>
       
     
