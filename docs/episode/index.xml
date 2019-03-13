@@ -32,21 +32,30 @@
       
         <item>
           <link>https://modcast.by/episode/1/</link>
-          <title>MODX-Дайджест #1</title>
+          <title>Выпуск #1</title>
           <pubDate>Mon, 11 Mar 2019 30:00:00 +1000 </pubDate>
 
           <description><![CDATA[
 
-<p>11 марта 2019: Иконки для типов содержимого, XSS-уязвимости в админке, заморозка 3 ветки, работа над документацией и упорядочивание разрешений.
+<p>11 марта 2019: Иконки для типов содержимого, XSS-уязвимости в админке, заморозка 3 ветки, работа над документацией, упорядочивание разрешений и многое другое.
 </p>
 
 <h2 id="содержание">Содержание</h2>
 
 <ul>
-<li>00:00:00 Начало подкаста</li>
-<li>00:03:10 Об иконках</li>
-<li>00:05:03 Уязвимости</li>
-<li>00:07:15 Заморозка 3 ветки</li>
+<li>00:00:20 MODX Meetup в Амстердаме</li>
+<li>00:00:44 Команда Ивана Бочкарева</li>
+<li>00:01:58 Приведение в порядок permissions</li>
+<li>00:02:56 Исправления XSS в админке</li>
+<li>00:03:43 Security.md в репозитории</li>
+<li>00:04:26 Новые шрифты в админке</li>
+<li>00:04:51 Иконки для типов содержимого</li>
+<li>00:06:09 Работа над документацией</li>
+<li>00:07:29 Большой рефакторинг всё, почти</li>
+<li>00:09:01 Благодарности авторам</li>
+<li>00:09:57 Видео минских митапов</li>
+<li>00:10:38 О подкасте</li>
+<li>00:11:34 Об авторе</li>
 </ul>
 
 <p>Слушайте:
@@ -55,26 +64,28 @@
 <a href="#3">Ютуб</a>
 <a href="#4">SoundCloud</a>
 <a href="#5">Overcast</a>
-<a href="#6">RSS</a></p>
+<a href="https://modcast.by/episode/index.xml">RSS</a></p>
 
 <p>Поддержите:
 <a href="https://www.patreon.com/modcast">Патреон</a>
 <a href="https://money.yandex.ru/to/41001878021446">Яндекс.Деньги</a></p>
 
 <p>Новости и обновления в телеграм-канале <a href="https://t.me/modxdigest">MODX Digest</a></p>
+
+<p>MODX-Дайджест #1 - <a href="https://modx.pro/news/17755">https://modx.pro/news/17755</a></p>
 ]]></description>
 
-          <guid isPermaLink="true">https://s3.eu-north-1.amazonaws.com/modcastby/pp/pp0.mp3</guid>
-          <enclosure url="https://s3.eu-north-1.amazonaws.com/modcastby/pp/pp0.mp3" length="5989772" type="audio/mpeg" />
+          <guid isPermaLink="true">https://s3.eu-north-1.amazonaws.com/modcastby/episodes/1.mp3</guid>
+          <enclosure url="https://s3.eu-north-1.amazonaws.com/modcastby/episodes/1.mp3" length="14233380" type="audio/mpeg" />
 
           <itunes:episode>1</itunes:episode>
-          <itunes:duration>00:08:19</itunes:duration>
+          <itunes:duration>00:14:39</itunes:duration>
           <itunes:image href="https://modcast.by/img/artwork.jpg"/>
           
           <itunes:author>Иван Климчук</itunes:author>
           <itunes:explicit>no</itunes:explicit>
 
-          <itunes:summary>Иконки для типов содержимого, XSS-уязвимости в админке, заморозка 3 ветки, работа над документацией и упорядочивание разрешений.</itunes:summary>
+          <itunes:summary>Иконки для типов содержимого, XSS-уязвимости в админке, заморозка 3 ветки, работа над документацией, упорядочивание разрешений и многое другое.</itunes:summary>
         </item>
       
     
