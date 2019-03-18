@@ -3,7 +3,7 @@
   <channel>
     <atom:link href="https://modcast.by/episode/index.xml" rel="self" type="application/rss+xml" />
 
-    <title>Подкаст о MODX</title>
+    <title>Модкаст</title>
     <link>https://modcast.by/</link>
     <language>ru-ru</language>
     <copyright>СС BY-NC-ND 4.0</copyright>
@@ -11,8 +11,8 @@
     <itunes:subtitle>Говорим о MODX</itunes:subtitle>
     <itunes:author>Иван Климчук</itunes:author>
 
-    <itunes:summary>Обсуждаем новости сообщества и прогресс разработки, а так же просто говорим о MODX.</itunes:summary>
-    <description>Обсуждаем новости сообщества и прогресс разработки, а так же просто говорим о MODX.</description>
+    <itunes:summary>Новости сообщества и обзор прогресса разработки, а так же просто разговоры о MODX</itunes:summary>
+    <description>Новости сообщества и обзор прогресса разработки, а так же просто разговоры о MODX</description>
 
     <itunes:type>episodic</itunes:type>
     <itunes:owner>
@@ -37,10 +37,7 @@
 
           <description><![CDATA[
 
-<p>11 марта 2019: Иконки для типов содержимого, XSS-уязвимости в админке, заморозка 3 ветки, работа над документацией, упорядочивание разрешений и многое другое.
-</p>
-
-<h2 id="содержание">Содержание</h2>
+<h3 id="содержание">Содержание</h3>
 
 <ul>
 <li>00:00:20 MODX Meetup в Амстердаме</li>
@@ -58,21 +55,18 @@
 <li>00:11:34 Об авторе</li>
 </ul>
 
-<p>Слушайте:
-<a href="#1">iTunes</a>
-<a href="#2">Яндекс.Музыка</a>
-<a href="#3">Ютуб</a>
-<a href="#4">SoundCloud</a>
-<a href="#5">Overcast</a>
-<a href="https://modcast.by/episode/index.xml">RSS</a></p>
+<p><a href="https://modx.pro/news/17755
+">MODX-Дайджест</a></p>
 
-<p>Поддержите:
-<a href="https://www.patreon.com/modcast">Патреон</a>
-<a href="https://money.yandex.ru/to/41001878021446">Яндекс.Деньги</a></p>
+<p><a href="https://t.me/modxdigest">Телеграм-канал дайджеста</a></p>
 
-<p>Новости и обновления в телеграм-канале <a href="https://t.me/modxdigest">MODX Digest</a></p>
+<p><strong>Слушайте</strong>: iTunes, <a href="https://www.youtube.com/watch?v=fI_Yie3-9Jk&amp;list=PLVbo0tgRKXrSGg6dxJYTIHko5t7AOnG3E">YouTube</a>, <a href="https://music.yandex.ru/album/7133163">Яндекс</a>, <a href="https://soundcloud.com/modcastby">SoundCloud</a>, Overcast, <a href="https://modcast.by/episode/index.xml">RSS</a></p>
 
-<p>MODX-Дайджест #1 - <a href="https://modx.pro/news/17755">https://modx.pro/news/17755</a></p>
+<p>Задавайте вопросы и предлагайте темы: <a href="https://twitter.com/iklimchuk">Твиттер</a>, <a href="https://t.me/alroniks">Телеграм</a></p>
+
+<p>Поддержите: <a href="https://money.yandex.ru/to/41001878021446/1000">Яндекс.Деньги</a></p>
+
+<p>Спасибо!</p>
 ]]></description>
 
           <guid isPermaLink="true">https://s3.eu-north-1.amazonaws.com/modcastby/episodes/1.mp3</guid>
