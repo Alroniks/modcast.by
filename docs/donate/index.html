@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<title>Поддержка подкаста и пожертвования – Модкаст</title>
+<title>Поддержка и реклама – Модкаст</title>
 <meta name="description" content="Новости сообщества и обзор прогресса разработки, а так же просто разговоры о MODX">
 
 <meta name="generator" content="Hugo 0.53" />
@@ -24,16 +24,33 @@
 <meta name="theme-color" content="#ffffff">
 
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+        
+        $(".navbar-burger").click(function() {
+            
+            $(".navbar-burger").toggleClass("is-active");
+            $(".navbar-menu").toggleClass("is-active");
+        });
+    });
+</script>
+
+   
 </head>
 
-<body>
+<body style="margin-bottom:14rem;">
   <nav class="navbar has-shadow is-spaced" role="navigation" aria-label="main navigation">
     <div class="container">
         <div class="navbar-brand">
             <a href="/" class="navbar-item">
                 <img src="/img/logo.png" alt="logo">
             </a>
-            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample"></a>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
         </div>
 
         <div id="navbarBasicExample" class="navbar-menu">
@@ -90,9 +107,19 @@
   
 <section class="section">
   <div class="container">
-    <h1 class="title">Поддержка подкаста и пожертвования</h1>
+    <h1 class="title">Поддержка и реклама</h1>
     <div class="content">
-      <p>Информация о том, как помочь подкасту и пожертвовать денег.</p>
+      
+
+<p>Подкаст бесплатный и выходит благодаря поддержке слушателей.
+<br>Вы можете поддержать подкаст, перечислив любую сумму на кошелек в Яндекс.Деньги.</p>
+
+<p><a href="https://money.yandex.ru/to/41001878021446/1000" target="_blank" class="button is-link is-warning"><span class="icon"><i class="fa fa-donate"></i></span><span>Яндекс.Деньги</span></a></p>
+
+<h3 id="реклама">Реклама</h3>
+
+<p>Пока нет статистики по прослушиваниям и регулярности выпуском, сложно предложить условия и цену,
+<br>но я открыт к диалогу и можно обсудить взаимовыгодное сотрудничество.</p>
 
     </div>
   </div>

@@ -24,16 +24,37 @@
 <meta name="theme-color" content="#ffffff">
 
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+        
+        $(".navbar-burger").click(function() {
+            
+            $(".navbar-burger").toggleClass("is-active");
+            $(".navbar-menu").toggleClass("is-active");
+        });
+    });
+</script>
+
+  
+    <script src="/player/mediaelement-and-player.min.js"></script>
+    <link rel="stylesheet" href="/player/mediaelementplayer.min.css" />
+    <link rel="stylesheet" href="/player/bulmacast-player.css" />
+
 </head>
 
-<body>
+<body style="margin-bottom:14rem;">
   <nav class="navbar has-shadow is-spaced" role="navigation" aria-label="main navigation">
     <div class="container">
         <div class="navbar-brand">
             <a href="/" class="navbar-item">
                 <img src="/img/logo.png" alt="logo">
             </a>
-            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample"></a>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
         </div>
 
         <div id="navbarBasicExample" class="navbar-menu">
@@ -88,20 +109,39 @@
 </nav>
 
   
-
-<section class="hero is-large is-dark is-bold">
+<section class="hero is-medium  is-bold">
     <div class="hero-body">
         <div class="container">
-            <h1 class="title">
-                Тут будет плеер
-            </h1>
-            <h2 class="subtitle">
-                С последним эпизодом
-            </h2>
+            
+            
+                <h1 class="title is-size-4-mobile">Модкаст: Выпуск #1</h1>
+                <div class="player" style="margin-left:-.5rem;">
+                    <audio class="mejs__player bulmacast-mejs-container" src="https://s3.eu-north-1.amazonaws.com/modcastby/episodes/1.mp3" preload="auto" width="100%" />
+                </div>
+                <div class="content">Иконки для типов содержимого, XSS-уязвимости в админке, заморозка 3 ветки, работа над документацией, упорядочивание разрешений и многое другое.</div>
+                <div class="level">
+                    <div class="level-left">
+                        <div class="field is-grouped is-grouped-multiline">
+                            <div class="control"><a class="tag is-link" href="https://modx.pro/news/17755" target="_blank">MODX-Дайджест #1</a></div>
+                            <div class="control"><a class="tag is-primary" href="https://s3.eu-north-1.amazonaws.com/modcastby/episodes/1.mp3">Скачать эпизод</a></div>
+                            
+                            <div class="control"><div class="tag">14 MB</div></div>
+                            <div class="control"><div class="tag">00:14:39</div></div>
+                        </div>
+                    </div>
+                    <div class="level-right">
+                        <div class="buttons">
+                            <a href="/episode/index.xml" class="button is-warning is-small" style="background-color:#f26522;color:#fff;"><span class="icon"><i class="fas fa-rss"></i></span><span>RSS</span></a>
+                            <a href="https://soundcloud.com/modcastby" class="button is-warning is-small" style="background-color:#f50;color:#fff;"><span class="icon"><i class="fab fa-soundcloud"></i></span><span>SoundCloud</span></a>
+                            <a href="https://www.youtube.com/playlist?list=PLVbo0tgRKXrSGg6dxJYTIHko5t7AOnG3E" class="button is-danger is-small" style="background-color:#f00;"><span class="icon"><i class="fab fa-youtube"></i></span><span> YouTube</span></a>
+                        </div>
+                    </div>
+                </div>
+            
+
         </div>
     </div>
 </section>
-
 
   <footer class="footer" style="position:fixed;bottom:0;right:0;left:0;padding-bottom:3rem;">
     <div class="container">
