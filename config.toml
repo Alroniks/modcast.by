@@ -1,8 +1,7 @@
 baseURL = "https://modcast.by/"
 theme="bulmacast"
 
-Title = "Подкаст о MODX"
-Description = "Обсуждаем новости сообщества и прогресс разработки, а так же просто говорим о MODX."
+Title = "Модкаст"
 
 publishDir = "docs"
 disableKinds = ["taxonomy", "taxonomyTerm"]
@@ -15,8 +14,7 @@ disqusShortname = ""
 
 [Params]
     [Params.Podcast]
-        Title = "Модкаст"
-        Description = "Обсуждаем новости сообщества и прогресс разработки, а так же просто говорим о MODX."
+        Description = "Новости сообщества и обзор прогресса разработки, а так же просто разговоры о MODX"
         Artwork = "img/artwork.jpg"
         Summary = "Говорим о MODX"
         Copyright = "СС BY-NC-ND 4.0"
