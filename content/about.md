@@ -25,6 +25,7 @@ title = "О подкасте"
 <div class="buttons">
 <a href="/episode/" class="button is-primary"><span class="icon"><i class="fas fa-th-list"></i></span><span>Подкасты на сайте</span></a>
 <a href="/episode/index.xml" class="button is-warning" style="background-color:#f26522;color:#fff;"><span class="icon"><i class="fas fa-rss"></i></span><span>RSS</span></a>
+<a class="button is-warning" style="background-color:#cc45f2;color:#fff;" href="https://itunes.apple.com/by/podcast/%D0%BC%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82/id1456459618" class="button"><span class="icon"><i class="fab fa-itunes-note"></i></span><span>iTunes</span></a>
 <a href="https://music.yandex.ru/album/7133163" class="button is-warning" style="background-color:#ffdb4d;"><span class="icon"><i class="fab fa-yandex"></i></span><span>Яндекс Музыка</span></a>
 <a href="https://soundcloud.com/modcastby" class="button is-warning" style="background-color:#f50;color:#fff;"><span class="icon"><i class="fab fa-soundcloud"></i></span><span>SoundCloud</span></a>
 <a href="https://www.youtube.com/playlist?list=PLVbo0tgRKXrSGg6dxJYTIHko5t7AOnG3E" class="button is-danger" style="background-color:#f00;"><span class="icon"><i class="fab fa-youtube"></i></span><span> YouTube</span></a>
@@ -34,7 +35,6 @@ title = "О подкасте"
 Ждут одобрения
 
 <div class="buttons">
-<a href="" class="button"><span class="icon"><i class="fab fa-itunes-note"></i></span><span>iTunes</span></a>
 <a href="" class="button"><span class="icon"><i class="fas fa-podcast"></i></span><span>Overcast</span></a>
 <a href="" class="button"><span class="icon"><i class="fab fa-vk"></i></span><span>VK Подкасты</span></a>
 </div>
